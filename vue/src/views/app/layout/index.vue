@@ -1,7 +1,14 @@
 <template>
-  <router-view/>
+  <div class="app-layout">
+    <c-header></c-header>
+    <router-view/>
+  </div>
 </template>
 
 <script>
-  export default {}
+  import * as components from '@/components'
+
+  export default {
+    components
+  }
 </script>
