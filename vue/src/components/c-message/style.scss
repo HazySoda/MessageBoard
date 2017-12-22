@@ -1,0 +1,64 @@
+.c-message__wrap {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, .2);
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.c-message__header {
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  font-size: 1.2rem;
+  height: 3.2rem;
+  justify-content: space-between;
+  padding: 0 5px;
+  .tag {
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+    padding: 2px 4px;
+  }
+}
+
+.c-message__body {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  min-height: 5rem;
+  padding: 5px 10px;
+  word-break: break-all;
+  .c-message__imgbox {
+    align-items: center;
+    display: flex;
+    height: 18rem;
+    justify-content: center;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+    img {
+      height: 180px;
+      width: 180px;
+    }
+  }
+}
+
+.c-message__footer {
+  border-top: 1px solid #ddd;
+  display: flex;
+  font-size: 1.2rem;
+  height: 3.2rem;
+  justify-content: space-between;
+  span {
+    align-items: center;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    &:last-child {
+      border: none;
+    }
+  }
+}
