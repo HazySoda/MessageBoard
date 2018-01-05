@@ -2,6 +2,7 @@
   <div class="app-layout">
     <c-header></c-header>
     <router-view/>
+    <c-footer></c-footer>
   </div>
 </template>
 
